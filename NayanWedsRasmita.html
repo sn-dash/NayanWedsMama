@@ -21,9 +21,20 @@
     <link rel="stylesheet" href="style.css"/>      
     
     <script type="text/javascript" src="script.js"> </script>
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+    <script
+    src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(window).load(function(){
+            $(".loader").fadeOut("slow");
+        });        
+    </script>
 </head>
 
 <body class="background">
+    <div class="loader"></div>
     <div class=" bgimg1">
         <span class="girlandguy">
             <label class="names girlname animated infinite  tada">Rasmita</label><br/>
@@ -47,8 +58,9 @@
             <div class="clear">&nbsp;</div>
             <div class="col-lg-4"></div>
             <div id="clockdiv" class="col-lg-4">
-                <label class="col-lg-6" ><label class="timer" id="timerDay"></label><br/> Days  </label>
-                <label class="col-lg-6" ><label class="timer" id="timerHour"></label><br/> Hours </label>
+                <label class="col-lg-3" ><label class="timer" id="timerDay"></label><br/> Days  </label>
+                <label class="col-lg-3" ><label class="timer" id="timerHour"></label><br/> Hours </label>
+                <label class="col-lg-3" ><label class="timer">&nbsp;</label><br/> to go</label>
             </div>
             <div class="col-lg-4"></div>
 
@@ -63,10 +75,10 @@
             </div>
         </div> 
         <div class="col-sm-4 col-sm-pull-4 col-xs-6">
-            <div class="bridepic"></div>
+            <div class="groompic"></div>
         </div>       
         <div class="col-sm-4 col-xs-6">
-            <div class="groompic"></div>
+            <div class="bridepic"></div>
         </div>
         
     </div>
@@ -148,6 +160,10 @@
                     <div class="item-item col-md-3 col-sm-4 col-xs-8 col-xs-offset-2">
                         <img src="images/c10.jpg" class="img-responsive img-circle"></div>
                     </div>
+                    <div class="item">
+                    <div class="item-item col-md-3 col-sm-4 col-xs-8 col-xs-offset-2">
+                        <img src="images/c11.jpg" class="img-responsive img-circle"></div>
+                    </div>
                 </div>
         </div>
     </div>
@@ -201,7 +217,7 @@
     </div>
     <div class="clear">&nbsp;</div>
     <div class="col-lg-12 col-xs-12" id="waitingforyou">
-        We are waiting for your gracious presence.
+        Please be sure to be prompt and ready to enjoy a magical wedding. Your presence is our pleasure.
         <div id="thankyou">
             <br/> Thank You !!!
         </div>
