@@ -131,7 +131,7 @@
 @media only screen and (max-width: 768px){
 
     .bgimg1 {
-        background-image: url('images/Header_Image_Small.jpg');
+        background-image: url('images/Top_Image_Small.jpg');
         width: 100%;
         height: 100%;
     }
@@ -225,7 +225,7 @@
 @media only screen and (min-width: 768px)
 {    
     .bgimg1 {
-            background-image: url('images/Header_Image.jpg');
+            background-image: url('images/Top_Image.jpg');
         }
         
         .girlandguy {
