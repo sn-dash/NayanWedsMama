@@ -49,13 +49,13 @@
 	       color:red;
         }
 
-        .weds-custom{
-            position:absolute;
-            left:35px; /** you can make changes here to change position **/
-            top:35px;
-            font-size:14px;
+        .weds-custom{            
             z-index: 3;
-            color:yellowgreen
+            font-size: 24px;
+            color:yellowgreen;
+            background: -webkit-linear-gradient(white, yellow);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
         
         .eventInvitation {
@@ -138,6 +138,9 @@
 
     .names {
         font: italic 40px/42px Forte, MV Boli, Lucida Calligraphy, Georgia, Verdana, sans-serif
+    }
+    .weds-custom{
+        font-size: 22px;
     }
 
     .guyname {
@@ -237,6 +240,10 @@
         .names {
             font: italic 120px/130px Forte, MV Boli, Lucida Calligraphy, Georgia, Verdana, sans-serif
         }
+	
+	.weds-custom{
+            font-size: 62px;
+    	}
         
         .and {
             font: italic bold 30px/32px Georgia, Verdana, sans-serif;
