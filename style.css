@@ -57,6 +57,16 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
+
+        .couplename{
+            color:orangered;
+            background: -webkit-linear-gradient(orangered, yellowgreen);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .eventDate{
+            color: yellowgreen;
+        }
         
         .eventInvitation {
             text-align: center;
@@ -143,10 +153,6 @@
         font-size: 22px;
     }
 
-    .guyname {
-        margin-left:10%;
-    }
-
     .and {
         font: italic 20px/30px Georgia, Verdana, sans-serif;
         margin-left: 10%;
@@ -157,12 +163,16 @@
 
     .girlandguy {
         position: relative;
-        top: 30%;
+        top: 50%;
         left: 10%;
     }
 
-    .couplename, .eventDate {
-        font: italic 30px/32px Georgia, Verdana, sans-serif;
+    .couplename {
+        font: italic 60px/75px Georgia, Verdana, sans-serif;
+    }
+
+    .eventDate{
+        font: italic 30px/35px Georgia, Verdana, sans-serif;
     }
 
     .eventInvitation {
@@ -216,7 +226,7 @@
 }
 @media only screen and (max-width: 768px) and (orientation: landscape ){
 	#crewCarousel .carousel-inner {
-		height: 70%;
+		height: 60%;
 	}
 }
 @media only screen and (max-width: 768px) and (orientation: portrait ){
@@ -233,7 +243,7 @@
         
         .girlandguy {
             position: relative;
-            top: 10%;
+            top: 40%;
             left: 10%;
         }
         
@@ -253,7 +263,7 @@
 	 	font: italic 100px/102px Georgia, Verdana, sans-serif;
 	}
         .couplename, .eventDate{
-            font: italic 70px/72px Georgia, Verdana, sans-serif;
+            font: italic 70px/80px Georgia, Verdana, sans-serif;
             /* margin-left:-10%; */
         }
         
